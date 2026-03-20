@@ -1,6 +1,8 @@
 # Docker_WebApp_Assignment 
 Containerized Web Application with PostgreSQL using Docker Compose and IPvlan
+
 Project Assignment 1
+
 Containerization and DevOps
 
 This project demonstrates a containerized web application using FastAPI and PostgreSQL. Both services run in separate Docker containers and are orchestrated using Docker Compose. Networking is implemented using IPvlan with static IP addresses.
