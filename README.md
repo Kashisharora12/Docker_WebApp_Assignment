@@ -9,12 +9,14 @@ This project demonstrates a containerized web application using FastAPI and Post
     
    <img width="1205" height="401" alt="image" src="https://github.com/user-attachments/assets/1def231f-c23c-4b48-b436-25cc73a579d0" />
 
-      Prerequisites
-      Verify Docker installation.
-
+     Prerequisites
+    
+     Verify Docker installation.
+      
  <img width="1217" height="91" alt="image" src="https://github.com/user-attachments/assets/580ac1b2-5eb4-4ec3-a305-7fe9955d4b06" />
 
  Output
+
  <img width="946" height="142" alt="image" src="https://github.com/user-attachments/assets/21304eb3-3dae-4371-a4c2-abc1420c0a37" />
 
  Step 1 — Create Project Directory
