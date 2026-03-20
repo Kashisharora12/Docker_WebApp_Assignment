@@ -23,12 +23,14 @@ This project demonstrates a containerized web application using FastAPI and Post
  <img width="1232" height="90" alt="image" src="https://github.com/user-attachments/assets/d3a97e45-6048-4eae-a568-a717ce15b26a" />
 
 Output
+
 <img width="651" height="47" alt="image" src="https://github.com/user-attachments/assets/b8fe6aad-b9ca-4090-9a79-d0ecadb6b7e1" />
 
 Step 2 — Create Backend and Database Directories
 <img width="1238" height="122" alt="image" src="https://github.com/user-attachments/assets/aa1f5385-74bf-4d92-9533-598509ea6cba" />
 
 Output
+
 <img width="1225" height="57" alt="image" src="https://github.com/user-attachments/assets/d70fb365-925d-4842-8344-f3b6c619f42d" />
 
 Step 3 — Backend Files
@@ -37,6 +39,7 @@ Backend directory contains:
 <img width="1229" height="161" alt="image" src="https://github.com/user-attachments/assets/17cb3839-c3fe-42eb-a661-9a76882cfc6d" />
 
 Output
+
 <img width="922" height="102" alt="image" src="https://github.com/user-attachments/assets/a1520161-76fe-4dea-bed7-cd77bede87b4" />
 
 Step 4 — Database Files
