@@ -109,6 +109,115 @@ Response
 
 <img width="1237" height="122" alt="image" src="https://github.com/user-attachments/assets/8a4519e3-3389-4a7f-ad17-b89732be6313" />
 
+Step 12 — Insert Record
+
+Request
+
+<img width="1238" height="62" alt="image" src="https://github.com/user-attachments/assets/cdbde396-5245-4d55-a717-c2a253966eab" />
+
+Response
+
+<img width="1217" height="148" alt="image" src="https://github.com/user-attachments/assets/ac1cc8cf-edac-4aa0-bac3-8f2dcb7dff56" />
+
+Step 13 — Fetch Records
+
+Request
+
+<img width="1248" height="61" alt="image" src="https://github.com/user-attachments/assets/b9c01d24-a810-4f1e-88a9-bef0591a60f9" />
+
+Response
+
+<img width="1222" height="183" alt="image" src="https://github.com/user-attachments/assets/06e5133a-cab3-437f-9905-b86f7281bac9" />
+
+Step 14 — Volume Persistence Test
+
+Insert record first.
+
+<img width="1136" height="62" alt="image" src="https://github.com/user-attachments/assets/0c3a47dc-d196-4d8b-b59f-13f26a836012" />
+
+Stop containers:
+
+<img width="1197" height="63" alt="image" src="https://github.com/user-attachments/assets/5382089b-53ed-426e-af3b-9a3e2145428d" />
+
+Restart containers:
+
+<img width="1227" height="61" alt="image" src="https://github.com/user-attachments/assets/11e9269b-4642-4cfd-9219-3ba16e655064" />
+
+Fetch records again:
+
+<img width="1162" height="67" alt="image" src="https://github.com/user-attachments/assets/72a5a31b-9761-4b49-ae56-88356e1902f5" />
+
+Output
+
+<img width="1115" height="188" alt="image" src="https://github.com/user-attachments/assets/9e98a50a-b1bd-4010-9bc1-5416bc4147cd" />
+
+Data persists even after container restart.
+
+
+Step 15 — Docker Volume Verification
+
+<img width="1151" height="56" alt="image" src="https://github.com/user-attachments/assets/f7622898-15c1-461c-8648-be0e2ded1ff2" />
+
+Output
+
+<img width="1146" height="87" alt="image" src="https://github.com/user-attachments/assets/2cf67576-2ad5-49e4-8b61-9aad94bc9c31" />
+
+
+Build Optimization Explanation
+
+Several optimizations were implemented while building Docker images.
+
+• Multi-stage builds reduce final image size.
+• Slim base images reduce unnecessary dependencies.
+• .dockerignore prevents unnecessary files from being copied into the container.
+• Non-root user execution improves container security.
+• Docker volumes ensure persistent database storage.
+
+These optimizations improve performance, portability, and security of the containerized application.
+
+Image Size Comparison
+
+<img width="321" height="138" alt="image" src="https://github.com/user-attachments/assets/e897648b-3148-4971-b3fa-c7145175d5c5" />
+
+Using slim images significantly reduces image size and improves container startup time.
+
+
+Macvlan vs IPvlan Comparison
+
+<img width="757" height="233" alt="image" src="https://github.com/user-attachments/assets/7e49b538-1676-4cf8-ae4d-40ff215537ed" />
+
+
+Conclusion
+
+This project successfully demonstrates containerized application deployment using Docker.
+
+Key components implemented include:
+
+• FastAPI backend container
+• PostgreSQL database container
+• Docker Compose orchestration
+• IPvlan networking with static IP assignment
+• Persistent storage using Docker volumes
+• Optimized Docker image builds
+
+The system ensures scalability, portability, and reliability in a containerized environment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
